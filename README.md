@@ -66,3 +66,19 @@ Academic engineering project.
 Author: Gabu Bhanu Prakash Reddy
 Branch: Electrical and Electronics Engineering (EEE)
 College: MVGR College of Engineering
+
+
+## System Block Diagram
+
+```mermaid
+flowchart TD
+    A[IR Sensor] --> B[Raspberry Pi Pico W]
+    B --> C[Control System]
+    C --> D[Transmitter Coil]
+    D --> E[Changing Magnetic Field]
+    E --> F[Receiver Coil]
+    F --> G[EV Charging Load]
+    B --> H[Voltage Sensor]
+    B --> I[Current Sensor]
+```
+
